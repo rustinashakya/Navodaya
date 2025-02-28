@@ -1,0 +1,112 @@
+@font-face {
+	font-family: "Roboto-Regular";
+    src: url('./Fonts/Roboto-Regular.eot');
+    src: url('./Fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/Roboto-Regular.woff2') format('woff2'),
+        url('./Fonts/Roboto-Regular.woff') format('woff'),
+        url('./Fonts/Roboto-Regular.ttf') format('truetype');
+}
+.roboto-regular{
+	font-family: "Roboto-Regular";
+}
+
+@font-face {
+	font-family: "Roboto-Medium";
+    src: url('./Fonts/Roboto-Medium.ttf') format('truetype');
+}
+.roboto-medium{
+	font-family: "Roboto-Medium";
+}
+
+@font-face {
+	font-family: "Roboto-Bold";
+    src: url('./Fonts/Roboto-Bold.eot');
+    src: url('./Fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/Roboto-Bold.woff2') format('woff2'),
+        url('./Fonts/Roboto-Bold.woff') format('woff'),
+        url('./Fonts/Roboto-Bold.ttf') format('truetype');
+}
+.roboto-bold{
+	font-family: "Roboto-Bold";
+}
+
+@font-face {
+	font-family: "Roboto-Thin";
+    src: url('./Fonts/Roboto-Thin.ttf') format('truetype');
+}
+.roboto-thin{
+	font-family: "Roboto-thin";
+}
+
+@font-face {
+	font-family: "Montserrat-Bold";
+    src: url('./Fonts/Montserrat-Bold.ttf') format('truetype');
+}
+.montserrat-bold{
+	font-family: "Montserrat-Bold";
+}
+
+@font-face {
+	font-family: "Montserrat-Medium";
+    src: url('./Fonts/Montserrat-Medium.ttf') format('truetype');
+}
+.montserrat-medium{
+	font-family: "Montserrat-Medium";
+}
+
+@font-face {
+	font-family: "Montserrat-Regular";
+    src: url('./Fonts/Montserrat-Regular.ttf') format('truetype');
+}
+.montserrat-regular{
+	font-family: "Montserrat-Regular";
+}
+
+@font-face {
+	font-family: "Montserrat-Light";
+    src: url('./Fonts/Montserrat-Light.ttf') format('truetype');
+}
+.montserrat-light{
+	font-family: "Montserrat-Light";
+}
+
+@font-face {
+	font-family: "Montserrat-SemiBold";
+    src: url('./Fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+.montserrat-semibold{
+	font-family: "Montserrat-SemiBold";
+}
+
+@font-face {
+	font-family: "Montserrat-SemiBoldItalic";
+    src: url('./Fonts/Montserrat-SemiBoldItalic.ttf') format('truetype');
+}
+.montserrat-semibolditalic{
+	font-family: "Montserrat-SemiBoldItalic";
+}
+
+
+
+
+
+:root {
+    --primary-color: #286169; 
+    --secondary-color: #333333; 
+    --tertiary-color: #93AEB2;
+}
+.primary-bg{
+    background-color: var(--primary-color);
+}
+.tertiary-bg{
+    background-color: var(--tertiary-color);
+}
+.text-primary{
+    color: var(--primary-color);
+}
+.text-secondary{
+    color: var(--secondary-color);
+}
+.text-tertiary{
+  color: var(--tertiary-color);
+}
