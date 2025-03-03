@@ -101,7 +101,7 @@ const Footer = () => {
 
       {/* Footer Copyright  */}
       <hr className="border-t-[#93AEB2]" />
-      <div className="py-3 flex justify-center w-full md:text-[14px] md:text-[18px] text-white montserrat-light text-center">
+      <div className="py-3 flex justify-center w-full text-[14px] md:text-[16px] text-white montserrat-light text-center">
         © Copy right 2025, navodaya.edu.np, All Right Reserved.
       </div>
     </footer>
